@@ -3,7 +3,6 @@ package seedu.address.logic.commands;
 import static seedu.address.commons.util.CollectionUtil.requireAllNonNull;
 import static seedu.address.model.Model.PREDICATE_SHOW_ALL_PERSONS;
 
-
 import java.util.List;
 
 import seedu.address.commons.core.index.Index;
@@ -70,11 +69,11 @@ public class RemarkCommand extends Command {
         return new CommandResult(generateSuccessMessage(editedPerson));
     }
 
-     /**
-     * Generates a command execution success message based on whether
-     * the remark is added to or removed from
-     * {@code personToEdit}.
-     */
+    /**
+    * Generates a command execution success message based on whether
+    * the remark is added to or removed from
+    * {@code personToEdit}.
+    */
     private String generateSuccessMessage(Person personToEdit) {
         String message = !remark.value.isEmpty() ? MESSAGE_ADD_REMARK_SUCCESS : MESSAGE_DELETE_REMARK_SUCCESS;
         return String.format(message, Messages.format(personToEdit));
