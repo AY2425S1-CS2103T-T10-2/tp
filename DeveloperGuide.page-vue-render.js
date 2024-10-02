@@ -212,7 +212,7 @@ with(this){return _c('ul',[_c('li',[_v("has a need to manage a significant numbe
 with(this){return _c('p',[_c('strong',[_v("Value proposition")]),_v(":")])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("manage a significant number of employees and potential hires faster than a typical mouse/GUI driven app")]),_v(" "),_c('li',[_v("find details about an employee or potential hire faster than a spreadsheet")]),_v(" "),_c('li',[_v("matches potential hires with available job openings faster than a spreadsheet")]),_v(" "),_c('li',[_v("for organizations seeking to manage employees and potential hires, our application offers a more specialized solution than an address book application")])])}
+with(this){return _c('ul',[_c('li',[_v("manage a significant number of employees and potential hires faster than a typical mouse/"),_c('em',[_v("GUI")]),_v(" driven app")]),_v(" "),_c('li',[_v("find details about an employee or potential hire faster than a spreadsheet")]),_v(" "),_c('li',[_v("matches potential hires with available job openings faster than a spreadsheet")]),_v(" "),_c('li',[_v("for organizations seeking to manage employees and potential hires, our application offers a more specialized solution than an address book application")])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"user-stories"}},[_v("User stories"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#user-stories","onclick":"event.stopPropagation()"}})])}
@@ -308,7 +308,7 @@ with(this){return _c('ol',[_c('li',[_v("Should work on any "),_c('em',[_v("mains
 with(this){return _c('h3',{attrs:{"id":"glossary"}},[_v("Glossary"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#glossary","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('strong',[_v("Mainstream OS")]),_v(": Windows, Linux, Unix, MacOS")]),_v(" "),_c('li',[_c('strong',[_v("Private contact detail")]),_v(": A contact detail that is not meant to be shared with others")]),_v(" "),_c('li',[_c('strong',[_v("MVP")]),_v(": Minimum Viable Product - The minimum set of features that is required to make the product usable by the target user")]),_v(" "),_c('li',[_c('strong',[_v("Alpha Release")]),_v(": A version of the software that is feature complete but may have bugs")]),_v(" "),_c('li',[_c('strong',[_v("Release Candidate")]),_v(": A version of the software that is feature complete and has no known bugs")]),_v(" "),_c('li',[_c('strong',[_v("Public Release")]),_v(": A version of the software that is released to the public with any bugs squashed after Release Candidate")])])}
+with(this){return _c('ul',[_c('li',[_c('strong',[_v("GUI")]),_v(": Graphical User Interface - User interface which allows users interact with the application through components such as icons, buttons and menus")]),_v(" "),_c('li',[_c('strong',[_v("Mainstream OS")]),_v(": Windows, Linux, Unix, MacOS")]),_v(" "),_c('li',[_c('strong',[_v("Private contact detail")]),_v(": A contact detail that is not meant to be shared with others")]),_v(" "),_c('li',[_c('strong',[_v("MVP")]),_v(": Minimum Viable Product - The minimum set of features that is required to make the product usable by the target user")]),_v(" "),_c('li',[_c('strong',[_v("Alpha Release")]),_v(": A version of the software that is feature complete but may have bugs")]),_v(" "),_c('li',[_c('strong',[_v("Release Candidate")]),_v(": A version of the software that is feature complete and has no known bugs")]),_v(" "),_c('li',[_c('strong',[_v("Public Release")]),_v(": A version of the software that is released to the public with any bugs squashed after Release Candidate")])])}
 },function anonymous(
 ) {
 with(this){return _c('h2',{attrs:{"id":"appendix-instructions-for-manual-testing"}},[_c('strong',[_v("Appendix: Instructions for manual testing")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#appendix-instructions-for-manual-testing","onclick":"event.stopPropagation()"}})])}
@@ -332,6 +332,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('em',[_v("{explain how to simulate a missing/corrupted file, and the expected behavior}")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Wed, 2 Oct 2024, 20:13:09 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Wed, 2 Oct 2024, 20:39:42 GMT+8]")])])])}
 }];
   
