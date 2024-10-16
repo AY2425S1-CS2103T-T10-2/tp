@@ -64,6 +64,7 @@
         "launch-and-shutdown": "Launch and shutdown",
         "adding-an-employee": "Adding an employee",
         "adding-a-potential-hire": "Adding a potential hire",
+        "listing-the-contents-of-staffsync": "Listing the contents of StaffSync",
         "deleting-a-person": "Deleting a person"
       },
       "headingKeywords": {}
@@ -132,7 +133,7 @@
       "src": "index.md",
       "title": "",
       "headings": {
-        "addressbook-level-3": "AddressBook Level-3"
+        "staffsync": "StaffSync"
       },
       "headingKeywords": {}
     },
