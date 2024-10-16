@@ -40,7 +40,7 @@
       "src": "DeveloperGuide.md",
       "title": "Developer Guide",
       "headings": {
-        "ab-3-developer-guide": "AB-3 Developer Guide",
+        "staffsync-developer-guide": "StaffSync Developer Guide",
         "acknowledgements": "Acknowledgements",
         "setting-up-getting-started": "Setting up, getting started",
         "design": "Design",
@@ -64,8 +64,7 @@
         "launch-and-shutdown": "Launch and shutdown",
         "adding-an-employee": "Adding an employee",
         "adding-a-potential-hire": "Adding a potential hire",
-        "deleting-a-person": "Deleting a person",
-        "saving-data": "Saving data"
+        "deleting-a-person": "Deleting a person"
       },
       "headingKeywords": {}
     },
