@@ -65,7 +65,8 @@
         "adding-an-employee": "Adding an employee",
         "adding-a-potential-hire": "Adding a potential hire",
         "listing-the-contents-of-staffsync": "Listing the contents of StaffSync",
-        "deleting-a-person": "Deleting a person"
+        "deleting-a-person": "Deleting a person",
+        "finding-a-person": "Finding a person"
       },
       "headingKeywords": {}
     },
