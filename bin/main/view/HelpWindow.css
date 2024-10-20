@@ -1,0 +1,33 @@
+#helpMessageContainer, #textVBox, .helpScrollPane, .helpVBox, .hori-separator {
+    -fx-background-color: #383838;
+}
+
+.text-command .content, .text-command {
+    -fx-padding: 20px 20px;
+    -fx-font-size: 1.5em;
+    -fx-wrap-text: true;
+    -fx-background-color: rgb(143, 96, 48);
+    -fx-font-family: "DM Sans Bold", sans-serif;
+    -fx-fill: white !important;
+}
+
+.text-box {
+    -fx-padding: 40px 30px;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+    -fx-background-color: rgba(255, 152, 36, 0.4);
+    -fx-border-insets: 16px 16px 0px 16px;
+    -fx-background-insets: 16px 16px 0px 16px;
+    -fx-text-fill: white !important;
+    -fx-border-width: 2.5px !important;
+    -fx-border-color: rgba(34, 192, 255, 0) !important;
+}
+
+.text-box > * {
+    -fx-text-fill: white !important;
+}
+
+.text-box:selected, .text-box:hover {
+    -fx-background-color: rgba(255, 152, 36, 0.6);
+    -fx-border-color: rgba(255, 137, 0, 0.8) !important;
+}
