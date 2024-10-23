@@ -147,11 +147,16 @@ StaffSync is a **desktop app for managing potential hires and employees, optimiz
 
   >Edits an existing person in the StaffSync.
   >
-  >Format: `edit INDEX [n/NAME] [p/PHONE_NUMBER] [e/EMAIL] [a/ADDRESS]`
+  >Format: `edit INDEX [n/NAME] [p/PHONE_NUMBER] [e/EMAIL] [a/ADDRESS] [d/DEPARTMENT] [r/ROLE] [ced/CONTRACT_END_DATE]`
   >
   >* Edits the person at the specified `INDEX`. The index refers to the index number shown in the displayed person list. The index **must be a positive integer** 1, 2, 3, …​
   >* At least one of the optional fields must be provided.
   >* Existing values will be updated to the input values.
+  > 
+  ><box type="tip" seamless>
+  >
+  >**Tip:** It is not possible to edit the contract end date of a potential hire
+  ></box>
   >
   >Examples:
   >*  `edit 1 p/91234567 e/johndoe@example.com` Edits the phone number and email address of the 1st person to be `91234567` and `johndoe@example.com` respectively.
@@ -285,14 +290,14 @@ Action     | Format                                                             
 **Clear**  | `clear`                                                                                       |
 **Delete** | `delete e INDEX` <br> `delete ph INDEX`                                                       | `delete e 3`<br> `delete ph 1`
 **Demote** | `demote INDEX`                                                                                | `demote 2`
-**Edit**   | `edit INDEX [n/NAME] [p/PHONE_NUMBER] [e/EMAIL] [a/ADDRESS]`                                  | `edit 2 n/James Lee e/jameslee@example.com`
+**Edit**   | `edit INDEX [n/NAME] [p/PHONE_NUMBER] [e/EMAIL] [a/ADDRESS] [d/DEPARTMENT] [r/ROLE] [ced/CONTRACT_END_DATE]` | `edit 2 n/James Lee e/jameslee@example.com`
 **Employee**| `employee n/NAME p/PHONE_NUMBER a/ADDRESS e/EMAIL d/DEPARTMENT r/ROLE ced/CONTRACT_END_DATE​` | `employee n/Jun Kang p/81234567 a/21 Lower Kent Ridge Rd e/pohjunkang@gmail.com d/Department of communications and informatics r/Head of communications and Informatics ced/2021-01-01`
 **Exit**   | `exit`                                                                                        |
 **Find**   | `find all [KEYWORDS]` <br> `find e [KEYWORDS]` <br> `find ph [KEYWORDS]`                      | `find all Jake` <br> `find e Jake` <br> `find ph Jake`
 **Help**   | `help`                                                                                        |
 **List**   | `list all` <br> `list e` <br> `list ph`                                                       |
-**Potential Hire**| `potential n/NAME p/PHONE_NUMBER a/ADDRESS e/EMAIL d/DEPARTMENT r/ROLE​`                      | `potential n/Jun Kang p/81234567 a/21 Lower Kent Ridge Rd e/pohjunkang@gmail.com d/Department of communications and informatics r/Head of communications and Informatics`
-**Promote** | `promote INDEX CONTRACT_END_DATE`                                                             | `promote 2 2025-12-20`
+**Potential Hire**| `potential n/NAME p/PHONE_NUMBER a/ADDRESS e/EMAIL d/DEPARTMENT r/ROLE​`            | `potential n/Jun Kang p/81234567 a/21 Lower Kent Ridge Rd e/pohjunkang@gmail.com d/Department of communications and informatics r/Head of communications and Informatics`
+**Promote** | `promote INDEX CONTRACT_END_DATE`                                                            | `promote 2 2025-12-20`
 
 --------------------------------------------------------------------------------------------------------------------
 
