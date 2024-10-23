@@ -68,7 +68,9 @@
         "deleting-a-person": "Deleting a person",
         "finding-a-person": "Finding a person",
         "demoting-an-employee": "Demoting an employee",
-        "promoting-a-potential-hire": "Promoting a potential hire"
+        "promoting-a-potential-hire": "Promoting a potential hire",
+        "sorting-the-contents-of-staffsync": "Sorting the contents of StaffSync",
+        "appendix-additional-uml-diagrams-for-other-cases": "Appendix: Additional uml diagrams for other cases"
       },
       "headingKeywords": {}
     },
