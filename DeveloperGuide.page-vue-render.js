@@ -374,6 +374,6 @@ with(this){return _c('ol',[_c('li',[_c('p',[_v("Sorting with all contacts shown"
 with(this){return _c('h2',{attrs:{"id":"appendix-additional-uml-diagrams-for-other-cases"}},[_c('strong',[_v("Appendix: Additional uml diagrams for other cases")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#appendix-additional-uml-diagrams-for-other-cases","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Thu, 24 Oct 2024, 15:40:54 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Thu, 24 Oct 2024, 15:57:53 GMT+8]")])])])}
 }];
   
