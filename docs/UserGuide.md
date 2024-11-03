@@ -684,20 +684,20 @@ Example: "find ph n/John".
 
 <div class="content content-command">
 
-Action     | Format                                                                                                      | Examples
------------|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------
-**Clear**  | `clear`                                                                                                     |
-**Delete** | `delete e INDEX` <br> `delete ph INDEX`                                                                     | `delete e 3`<br> `delete ph 1`
-**Demote** | `demote INDEX`                                                                                              | `demote 2`
+Action     | Format                                                                                                       | Examples
+-----------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------
+**Clear**  | `clear`                                                                                                      |
+**Delete** | `delete e INDEX` <br> `delete ph INDEX`                                                                      | `delete e 3`<br> `delete ph 1`
+**Demote** | `demote INDEX`                                                                                               | `demote 2`
 **Edit**   | `edit INDEX [n/NAME] [p/PHONE_NUMBER] [e/EMAIL] [a/ADDRESS] [d/DEPARTMENT] [r/ROLE] [ced/CONTRACT_END_DATE]` | `edit 2 n/James Lee e/jameslee@example.com`
-**Employee**| `employee n/NAME p/PHONE_NUMBER a/ADDRESS e/EMAIL d/DEPARTMENT r/ROLE ced/CONTRACT_END_DATE​`               | `employee n/Jun Kang p/81234567 a/21 Lower Kent Ridge Rd e/pohjunkang@gmail.com d/Department of communications and informatics r/Head of communications and Informatics ced/2021-01-01`
-**Exit**   | `exit`                                                                                                      |
-**Find**   | `find PARAMETER KEYWORD [KEYWORDS]`                                                                         | `find all Jake` <br> `find e Jake` <br> `find ph Jake`
-**Help**   | `help`                                                                                                      |
-**List**   | `list all` <br> `list e` <br> `list ph`                                                                     |
-**Potential Hire**| `potential n/NAME p/PHONE_NUMBER a/ADDRESS e/EMAIL d/DEPARTMENT r/ROLE​`                                    | `potential n/Jun Kang p/81234567 a/21 Lower Kent Ridge Rd e/pohjunkang@gmail.com d/Department of communications and informatics r/Head of communications and Informatics`
-**Promote** | `promote INDEX CONTRACT_END_DATE`                                                                           | `promote 2 2025-12-20`
-**Sort**   | `sort name` <br> `sort date`                                                                                |
+**Employee**| `employee n/NAME p/PHONE_NUMBER a/ADDRESS e/EMAIL d/DEPARTMENT r/ROLE ced/CONTRACT_END_DATE​`                | `employee n/Jun Kang p/81234567 a/21 Lower Kent Ridge Rd e/pohjunkang@gmail.com d/Department of communications and informatics r/Head of communications and Informatics ced/2021-01-01`
+**Exit**   | `exit`                                                                                                       |
+**Find**   | `find PARAMETER KEYWORD [KEYWORDS]`                                                                          | `find all Jake` <br> `find e Jake` <br> `find ph Jake`
+**Help**   | `help`                                                                                                       |
+**List**   | `list all` <br> `list e` <br> `list ph`                                                                      |
+**Potential Hire**| `potential n/NAME p/PHONE_NUMBER a/ADDRESS e/EMAIL d/DEPARTMENT r/ROLE​`                                     | `potential n/Jun Kang p/81234567 a/21 Lower Kent Ridge Rd e/pohjunkang@gmail.com d/Department of communications and informatics r/Head of communications and Informatics`
+**Promote** | `promote INDEX CONTRACT_END_DATE`                                                                            | `promote 2 2025-12-20`
+**Sort**   | `sort name [ORDER]` <br> `sort date [ORDER]` <br> `sort dept [ORDER]` <br> `sort role [ORDER]`               | `sort name` <br> `sort date asc` <br> `sort dept desc`                                                                             |
 
 
 </div>
