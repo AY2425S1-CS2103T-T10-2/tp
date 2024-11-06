@@ -70,7 +70,11 @@
         "demoting-an-employee": "Demoting an employee",
         "promoting-a-potential-hire": "Promoting a potential hire",
         "sorting-the-contents-of-staffsync": "Sorting the contents of StaffSync",
-        "appendix-additional-uml-diagrams-for-other-cases": "Appendix: Additional uml diagrams for other cases"
+        "appendix-additional-uml-diagrams-for-other-cases": "Appendix: Additional uml diagrams for other cases",
+        "appendix-effort": "Appendix: Effort",
+        "difficulty-level-10-10": "Difficulty Level: 10/10",
+        "challenges-faced": "Challenges Faced:",
+        "appendix-planned-enhancement": "Appendix: Planned Enhancement"
       },
       "headingKeywords": {}
     },
