@@ -368,6 +368,6 @@ with(this){return _c('h2',{attrs:{"id":"appendix-planned-enhancement"}},[_c('str
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Make the scrolling to commands in helpWindow more accurate: The current dropdown jumps to the correct command, but\nthe command box is not standardized. We plan to make it more accurate ensuring that it jumps to most command boxes with\nit at the very top of the helpWindow screen.")])]),_v(" "),_c('li',[_c('p',[_v("We will separate potential hires and employees into two different columns in the UI. This makes delete more sensible\nas right now, the inclusion of ph or e parameter is not as relevant.")])]),_v(" "),_c('li',[_c('p',[_v("We plan to add colours to the help and command output text to improve readability.")])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Thu, 7 Nov 2024, 20:43:12 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Thu, 7 Nov 2024, 21:12:05 GMT+8]")])])])}
 }];
   
